@@ -1,0 +1,67 @@
+.JoinPage
+{
+    background-color: rgb(31,29,29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.JoinContainer{
+    /* border: 2px solid white; */
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.JoinContainer>img{
+    width: 12vmax;
+}
+
+.JoinContainer>h1{
+    color: white;
+    font-size: 2.5vmax;
+    text-align: center;
+    padding: 1vmax;
+    width: 23vmax;
+    border-bottom: 0.25vmax solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    /* border: none;
+    outline: none; */
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+
+#joinbtn{
+    width: 15vmax;
+    padding: 1.2vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    margin: 2vmax;
+    color: rgb(3, 0, 32);
+    background-color: rgb(255, 199, 79);
+    box-sizing: border-box;
+    font-style: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#joinbtn:hover{
+    background-color:rgba(253, 193, 64, 0.799) ;
+    transition: 0.3s;
+    cursor: pointer;
+}

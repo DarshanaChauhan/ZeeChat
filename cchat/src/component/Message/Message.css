@@ -1,0 +1,25 @@
+.messageBox{
+    max-width: 70%;
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.7vmax;
+    display: inline-block;
+    clear: both;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5vmax;
+    word-wrap: break-word;
+}
+
+.right{
+    float: right;
+    background-color: #eca1a1;
+    color: rgb(54, 0, 0);
+    text-align: right;
+}
+
+.left{
+    float: left;
+    background-color: rgb(247, 196, 86);
+    color: rgb(44, 0, 54);
+    text-align: left;
+}
