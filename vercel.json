@@ -1,13 +1,8 @@
 {
-    "routes":[
+    "rewrites":[
         {
-            "src":"/",
-            "dest":"/"
-        },
-        {
-            "src":"/chat",
-            "dest" :"/"
-        }
-
+            "source":"/(.*",
+            "destination" : "/"
+    }
     ]
 }
